@@ -1,0 +1,100 @@
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat",sans-serif;
+
+}
+
+#h2{
+    text-align: center;
+    margin-top: 8px;
+    font-size: 50px;
+    font-family: "Montserrat",sans-serif;
+
+}
+.form{ 
+    width: 40%;
+    margin: auto;
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+   
+}
+input{
+    width: 95%;
+    height: 40px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 2px solid black ;
+}
+#designation,#priority,#vaccine{
+    margin-bottom: 15px;
+    width: 95%;
+    height: 40px;
+    display: block;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: bold;
+    font-size: 15px;
+}
+input[type="submit"]{
+    border: 0;
+    border-radius: 10px;
+    background-color: black;
+    color: #ecf0f1;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+#btn:hover{
+    background-color:#FF5722;
+    font-size: 20px;
+}
+#id{
+    /* margin-top: 30px; */
+    border-radius: 10px;
+    height: 35px;
+    width: 95%;
+    /* text-align: left; */
+    font-weight: bold;
+    /* margin: 0px 13px 0px -38px; */
+}
+#name{
+   
+    border-radius: 10px;
+    height: 35px;
+    width: 95%;
+    /* text-align: left; */
+    font-weight: bold;
+    /* margin: 0px 13px 0px -38px;  */
+}   
+#age{
+    
+    border-radius: 10px;
+    height: 35px;
+    width: 95%;
+    /* text-align: left; */
+    font-weight: bold;
+    /* margin: 0px 13px 0px -38px; */
+    
+}
+
+label{
+    display: inline-block;
+    width: 100px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    /* font-family: "Montserrat",sans-serif; */
+
+}
+
+@media screen and (max-width:900px ){
+    #nav{
+        display: flex;
+        /* flex-direction: column; */
+        width: 90%;
+
+    }
+}

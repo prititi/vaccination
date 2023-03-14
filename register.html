@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="./style/register.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+
+<body>
+    <header>
+         <nav>
+            <ul class="_links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dasboard.html">Dashboard</a></li>
+                <li><a href="./vaccination.html">Vaccinated</a></li>
+            </ul>
+        </nav>
+        <a href="./register.html" class="rgst"><button>Register</button></a>
+    </header>
+    <h2 id="h2">Register for Vaccination 👩‍⚕️</h2>
+    <div class="form">
+        <form id="registration">
+            <label for="unique id">Id: </label>
+            <input type="text" name="unique id " id="id" placeholder="Unique Id" required><br><br>
+
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name" placeholder="Enter your name" required><br><br>
+            <label for="age">Age: </label>
+            <input type="number" name="age" id="age" placeholder="Age" required><br><br>
+
+            <select title="designation" name="Designation" id="designation" required><br><br>
+                <option value="">Designation</option>
+                <option value="Employee">Employee</option>
+                <option value="Student">Student</option>
+            </select>
+            <select title="priority" name="priority" id="priority" required><br>
+                <option value="">Priority</option>
+                <option value="p0">p0</option>
+                <option value="p1">p1</option>
+                <option value="p2">p2</option>
+                <option value="p3">p3</option>
+            </select>
+            <select title="vaccine" name="vaccine" id="vaccine" required><br>
+                <option value="">vaccine</option>
+                <option value="Covishield">Covishield</option><br>
+                <option value="Covaxin">Covaxin</option>
+                <option value="Sputnik">Sputnik</option>
+            </select>
+            <input type="submit" value="submit" id="btn">
+        </form>
+    </div>
+
+
+
+</body>
+<script src="./script/register.js"></script>
+
+</html>

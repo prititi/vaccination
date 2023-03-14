@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap'); 
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat",sans-serif;
+}
+
+h2{
+    text-align: center;
+    margin-top: 40px;
+}
+#details{
+    width: 70%;
+    margin: auto;
+    border: 1px solid  black;
+    margin-top: 2rem;
+    background-color: #e6e6ff;
+}
+table,th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    line-height: 25px;
+    
+}
+.red{
+    color: #ffcccc;
+    background-color: red;
+    cursor: pointer;
+    /* border: 0px; */
+}
+.red:hover{
+    background-color: #F44336;
+    cursor: pointer;
+}
+.green{
+    color:#ffcccc;
+    background-color:  #64DD17;
+    cursor: pointer;
+
+}
+.green:hover{
+    background-color: #689F38;
+    cursor: pointer;
+}
+.filter{
+    width:50% ;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 25px;
+    
+}
+#by_vaccine,#by_priority,#by_age{
+    width: 30%;
+    height: 5vh;
+    border-radius: 8px;
+    padding-left: 5px;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255,1);
+    border-collapse: collapse;
+    color: #212121;
+    font-weight: bold;
+    border: 2px solid black;
+    font-size: 15px;
+}
+#by_vaccine:hover,#by_priority:hover,#by_age:hover{
+    background-color: rgba(255,255,255,0.5);
+}
+
+

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Vaccination</title>
+    <link rel="stylesheet" href="./style/vaccination.css">
+    <link rel="stylesheet" href="./style/index.css">
+</head>
+<body>
+    
+    <header>
+        <nav>
+            <ul class="_links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./dasboard.html">Dashboard</a></li>
+                <li><a href="./vaccination.html">Vaccinated</a></li>
+            </ul>
+        </nav>
+        <a href="./register.html" class="rgst"><button>Register</button></a>
+        
+    </header>
+    <main>
+      
+        <div class="filter">
+          <select name="by-vaccine" id="by_vaccine" title="vaccine">
+            <option value="">filter by vaccine</option>
+            <option value="Covishield">Covishield</option>
+            <option value="Covaxin"> Covaxin</option>
+            <option value="Sputnik">Sputnik</option>
+          </select>
+          <select name="by-age" id="by_age" title="age">
+            <option value="">sort by age</option>
+            <option value="Ascending">Ascending</option>
+            <option value="Descending">Descending</option>
+          </select>
+          <select name="by-priority" id="by_priority" title="priority">
+            <option value="">filter by priority</option>
+            <option value="p0">p0</option>
+            <option value="p1">p1</option>
+            <option value="p2">p2</option>
+            <option value="p3">p3</option>
+          </select>
+    
+        </div>
+        
+        <h2>Vaccinated Users Table </h2>
+          <table id="details">
+              <thead>
+                <tr>
+                  <th>Id</th>
+                  <th>Name</th>
+                  <th>Age</th>
+                  <th>Designation</th>
+                  <th>Priority</th>
+                  <th>Vaccine</th>
+                  <th>Delete</th>
+                </tr>
+                <div class="bg-image"></div>
+              </thead>
+              <tbody id="vaccinated">
+                <!-- Append your data here  -->
+              </tbody>
+            </table>
+      </main>
+  
+</body>
+<script src="./script/vaccination.js"></script>
+</html>
